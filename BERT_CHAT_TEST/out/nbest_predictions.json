@@ -1,0 +1,34 @@
+{
+    "1": [
+        {
+            "text": "\uc528\uc7bc\uacfc\ub294",
+            "probability": 0.6235408293757615,
+            "start_logit": 3.978533983230591,
+            "end_logit": 4.106200218200684
+        },
+        {
+            "text": "\uc528\uc7bc\uacfc\ub294 \uace0\ub4f1\ud559\uad50",
+            "probability": 0.32564863277006584,
+            "start_logit": 3.978533983230591,
+            "end_logit": 3.4566049575805664
+        },
+        {
+            "text": "\uace0\ub4f1\ud559\uad50",
+            "probability": 0.030067208614917535,
+            "start_logit": 1.5961501598358154,
+            "end_logit": 3.4566049575805664
+        },
+        {
+            "text": "\uc528\uc7bc\uacfc\ub294 \uace0\ub4f1\ud559\uad50 \ub3d9\ucc3d\uc774\ub2e4.",
+            "probability": 0.01898998025941707,
+            "start_logit": 3.978533983230591,
+            "end_logit": 0.6146974563598633
+        },
+        {
+            "text": "\uace0\ub4f1\ud559\uad50 \ub3d9\ucc3d",
+            "probability": 0.001753348979838075,
+            "start_logit": 1.5961501598358154,
+            "end_logit": 0.6146974563598633
+        }
+    ]
+}
