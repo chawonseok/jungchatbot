@@ -41,7 +41,7 @@ flags.DEFINE_string(
     "SQuAD json for predictions. E.g., dev-v1.1.json or test-v1.1.json")
 
 flags.DEFINE_string(
-    "init_checkpoint", '/checkpoint/model.ckpt-3775',
+    "init_checkpoint", 'checkpoint/model.ckpt-3775',
     "Initial checkpoint (usually from a pre-trained BERT model).")
 
 flags.DEFINE_bool(
