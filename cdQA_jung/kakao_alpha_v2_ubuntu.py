@@ -91,7 +91,8 @@ def Message():
     #ETRI KORBERT API에 문서와 질문 전달
     cdqa_query,validity=ETRI_korBERT(' '.join(list(df.loc[best_idx_scores.keys()].head(1)['paragraphs'])[0]),content)
     para=df['paragraphs'][list(best_idx_scores.keys())[0]]#유사도가 높은 문서
-    prediction = retriever_temp.predict(cdqa_query)#KORBERT의 답과 유사도가 높은 문장의 인댁스를 뽑는다
+    prediction = retriever_temp.predict(cdqa_query)#KORBERT의 답과 유사도가 높은 문장의 인댁스를
+     뽑는다
     dataSend =para[list(prediction)[0]]#정답문장
     print("time :", time.time() - start)
     return jsonify(make_query(dataSend))
